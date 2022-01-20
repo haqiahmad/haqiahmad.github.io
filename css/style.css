@@ -1,0 +1,78 @@
+.main-navbar {
+    background-color: #003049;
+}
+
+.img-profil img {
+    width: 350px;
+    border: 10px solid rgb(200, 200, 200);
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    color: white;
+    background-color: #F77F00;
+}
+
+.img-kolaborasi img {
+    max-height: 80px;
+    max-width: 150px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+h2.judul-kolaborasi::after {
+    margin: auto;
+    margin-top: 15px;
+    display: block;
+    border-bottom: 10px solid #D62828;
+    width: 150px;
+    border-radius: 25px;
+    content: "";
+}
+
+h2.judul-profil, .icon-color {
+    color: #D62828;
+}
+
+.carousel-item img {
+    filter: brightness(50%);
+}
+
+/* .carousel-caption {
+    bottom: 220px;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+} */
+
+.carousel-caption {
+    margin-bottom: 180px;
+}
+
+/* .carousel-caption h5 {
+    font-size: 40px;
+} */
+
+.button-color {
+    background-color: #D62828;
+}
+
+.medsos a {
+    color: #003049;
+}
+
+.judul-underline {
+    text-decoration: underline;
+    text-decoration-color: #D62828;
+}
+
+.progress-color {
+    background-color: #F77F00;
+}
